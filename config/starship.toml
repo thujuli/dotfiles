@@ -44,7 +44,7 @@ symbol = " "
 separator = "/"
 style = "bold dimmed green"
 
-"custom symbol"
+# "custom symbol"
 [nodejs]
 symbol = "\ue718 "
 
