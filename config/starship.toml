@@ -43,3 +43,13 @@ threshold = -1
 symbol = " "
 separator = "/"
 style = "bold dimmed green"
+
+"custom symbol"
+[nodejs]
+symbol = "\ue718 "
+
+[python]
+symbol = "\ue235 "
+
+[rust]
+symbol = "\ue7a8 "

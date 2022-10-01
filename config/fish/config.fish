@@ -1,11 +1,12 @@
 starship init fish | source
 
-alias ll="ls -l"
-alias la="ls -al"
-alias l="ls"
+alias ls="exa --icons"
+alias lt="exa --tree --level=2"
 
 alias cp="cp -iv"
 alias mv="mv -iv"
 alias rm="trash-put"
+
+alias cat="bat"
 
 alias less="less -i"

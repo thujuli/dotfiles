@@ -6,6 +6,8 @@
 4. [vim-plug](https://github.com/junegunn/vim-plug)
 5. [tpm](https://github.com/tmux-plugins/tpm)
 6. [trash-cli](https://github.com/andreafrancia/trash-cli)
+7. [exa](https://github.com/ogham/exa)
+8. [bat](https://github.com/sharkdp/bat)
 > ## RCM: [Dotfile Management](https://github.com/thoughtbot/rcm)
 1. `sudo wget -q https://apt.thoughtbot.com/thoughtbot.gpg.key -O /etc/apt/trusted.gpg.d/thoughtbot.gpg`
 2. `echo "deb https://apt.thoughtbot.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/thoughtbot.list`
