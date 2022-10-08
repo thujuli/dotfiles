@@ -1,6 +1,4 @@
-eval "$(/usr/local/bin/starship init bash)"
-export PATH=~/.local/bin:"$PATH"
-[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+eval "$(starship init bash)"
 
 alias ls="exa --icons"
 alias la="exa --tree --level=2"

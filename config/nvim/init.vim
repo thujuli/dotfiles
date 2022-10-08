@@ -2,8 +2,10 @@
 call plug#begin()
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'morhetz/gruvbox'
 Plug 'scrooloose/nerdtree'
+Plug 'tpope/vim-fugitive'
+Plug 'ryanoasis/vim-devicons'
 Plug 'tpope/vim-surround'
 
 call plug#end()
@@ -21,10 +23,10 @@ set shiftwidth=4
 set noerrorbells
 set novisualbell
 set termguicolors
-colorscheme dracula
+colorscheme gruvbox
 
 " Airline Configure
-let g:airline_theme = 'dracula'
+let g:airline_theme = 'gruvbox'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_alt_sep = '|'
 let g:airline#extensions#tabline#left_sep = ' '
