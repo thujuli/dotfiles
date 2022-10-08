@@ -16,6 +16,8 @@ set encoding=utf-8
 set number
 set relativenumber
 set mouse=a
+set clipboard=unnamedplus
+" set clipboard=unnamed
 set expandtab
 set tabstop=4
 set softtabstop=4

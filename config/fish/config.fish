@@ -1,7 +1,6 @@
-starship init fish | source
-
-alias ls="exa --icons"
-alias lt="exa --tree --level=2"
+alias ll="exa -l -g --icons"
+alias lla="ll -a"
+alias lt="exa -g --icons --tree --level=2"
 
 alias cp="cp -iv"
 alias mv="mv -iv"
