@@ -1,18 +1,20 @@
 # dotfiles
 > Requirements
-1. [git](https://git-scm.com/)
-2. [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable)
-3. [fzf](https://github.com/junegunn/fzf#using-linux-package-managers)
-4. [vim-plug](https://github.com/junegunn/vim-plug)
-5. [tpm](https://github.com/tmux-plugins/tpm)
-6. [trash-cli](https://github.com/andreafrancia/trash-cli)
-7. [exa](https://github.com/ogham/exa)
-8. [bat](https://github.com/sharkdp/bat)
-> ## RCM: [Dotfile Management](https://github.com/thoughtbot/rcm)
-1. `sudo wget -q https://apt.thoughtbot.com/thoughtbot.gpg.key -O /etc/apt/trusted.gpg.d/thoughtbot.gpg`
-2. `echo "deb https://apt.thoughtbot.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/thoughtbot.list`
-3. `sudo apt-get update`
-4. `sudo apt-get install rcm`
-> ## USE RCM
-1. `mv dotfiles/ ~/.dotfiles/`
-2. `rcup`
+- Kitty [kovidgoyal/kitty](https://github.com/kovidgoyal/kitty) 
+- Fish [fishshell](https://fishshell.com/)
+- Neovim [wiki-neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
+- Tmux [github/tmux](https://github.com/tmux/tmux/wiki/Installing)
+- Starship (Optional) [tarship.rs](https://starship.rs/)
+> Utilities
+- [git-scm/linux](https://git-scm.com/download/linux)
+- [rust-lang](https://www.rust-lang.org/tools/install)
+- [trash-cli](https://github.com/andreafrancia/trash-cli)
+- [exa](https://github.com/ogham/exa)
+- [fzf](https://github.com/junegunn/fzf#using-linux-package-managers)
+- [fd](https://github.com/sharkdp/fd)
+- [bat](https://github.com/sharkdp/bat)
+- [Fisher](https://github.com/jorgebucaran/fisher)
+- [tpm](https://github.com/tmux-plugins/tpm)
+> Refrences
+- Setup SSH For GitHub [github-docs/authentication](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+- Install Kitty and Fish [kitty-fish](https://github.com/thujuli/kitty-fish)
