@@ -50,7 +50,16 @@ local plugins = {
   'rafamadriz/friendly-snippets',
 
   -- formatters & linters
-  'jose-elias-alvarez/null-ls.nvim'
+  'jose-elias-alvarez/null-ls.nvim',
+
+  -- Markdown viewer
+  {
+    "iamcco/markdown-preview.nvim",
+    ft = "markdown",
+    build = function()
+      vim.fn["mkdp#util#install"]()
+    end,
+  },
 }
 
 local opts = {}
