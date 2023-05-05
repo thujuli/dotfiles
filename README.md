@@ -12,6 +12,8 @@
 
 - Download for Linux and Unix
   [git-scm/linux](https://git-scm.com/download/linux)
+- Install Node Version Modul 
+  [NVM](https://github.com/nvm-sh/nvm)
 - Install Rust [rust-lang](https://www.rust-lang.org/tools/install)
 - Command Line Interface to FreeDesktop.org Trash
   [trash-cli](https://github.com/andreafrancia/trash-cli)
