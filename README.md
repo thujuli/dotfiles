@@ -23,6 +23,7 @@
 - A simple, fast and user-friendly alternative to 'find'
   [fd](https://github.com/sharkdp/fd)
 - A cat(1) clone with wings [bat](https://github.com/sharkdp/bat)
+- A smarter cd command. Supports all major shells. [zoxide](https://github.com/ajeetdsouza/zoxide) 
 - A plugin manager for Fish [fisher](https://github.com/jorgebucaran/fisher)
 - Tmux Plugin Manager [tpm](https://github.com/tmux-plugins/tpm)
 
@@ -33,5 +34,3 @@
 - Setup SSH For GitHub
   [github-docs/authentication](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 - Install Kitty and Fish [kitty-fish](https://github.com/thujuli/kitty-fish)
-- Configuration for custom NvChad
-  [nvchad-config](https://github.com/thujuli/nvchad-config)
